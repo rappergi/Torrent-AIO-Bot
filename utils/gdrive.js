@@ -12,7 +12,7 @@ if (TOKEN) {
   }
 }
 
-const SCOPES = ["https://www.googleapis.com/auth/drive.metadata.readonly", "https://www.googleapis.com/auth/drive.file"];
+const SCOPES = ["https://www.googleapis.com/auth/drive"];
 
 if (!CLIENT_ID) {
   logger("CLIENT_ID env not set. Not uploading to gdrive.");
